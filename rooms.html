@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Room | Ladder Resort - Anuradhapura</title>
+  <meta name="description" content="Explore our deluxe air-conditioned room at Ladder Resort, Anuradhapura. Spacious, comfortable, and perfect for families and travellers.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="nav-overlay"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">Ladder<span>Resort</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rooms.html" class="active">Rooms</a></li>
+          <li><a href="attractions.html">Attractions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="btn btn-accent">Book Now</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <h1>Our Accommodation</h1>
+      <p>A cool, comfortable space designed for rest and relaxation in the heart of Anuradhapura.</p>
+    </div>
+  </section>
+
+  <!-- Room Details -->
+  <section class="rooms">
+    <div class="container">
+      <div class="room-card">
+        <!-- Photo Gallery -->
+        <div class="room-gallery">
+          <!-- Replace src values with your actual room photos -->
+          <img src="images/room-1.jpg" alt="Deluxe AC Room - spacious interior view" class="active"
+               onerror="this.style.display='none';this.parentElement.querySelector('.gallery-placeholder').style.display='flex';">
+          <img src="images/room-2.jpg" alt="Deluxe AC Room - comfortable bed"
+               onerror="this.style.display='none';">
+          <img src="images/room-3.jpg" alt="Deluxe AC Room - bathroom"
+               onerror="this.style.display='none';">
+          <img src="images/room-4.jpg" alt="Deluxe AC Room - window view"
+               onerror="this.style.display='none';">
+
+          <!-- Placeholder shown when images are not yet uploaded -->
+          <div class="gallery-placeholder" style="width:100%;height:100%;background:linear-gradient(135deg,#2d8b6a,#1a4a3a);display:flex;flex-direction:column;align-items:center;justify-content:center;color:white;font-family:var(--font-heading);gap:1rem;">
+            <span style="font-size:3rem;">🛏️</span>
+            <span style="font-size:1.3rem;">Deluxe AC Room</span>
+            <span style="font-size:0.9rem;opacity:0.7;">Photos coming soon</span>
+          </div>
+
+          <!-- Gallery Navigation -->
+          <button class="gallery-arrow prev" aria-label="Previous image">&#8249;</button>
+          <button class="gallery-arrow next" aria-label="Next image">&#8250;</button>
+          <div class="gallery-nav">
+            <span class="gallery-dot active" data-index="0"></span>
+            <span class="gallery-dot" data-index="1"></span>
+            <span class="gallery-dot" data-index="2"></span>
+            <span class="gallery-dot" data-index="3"></span>
+          </div>
+        </div>
+
+        <!-- Room Information -->
+        <div class="room-info">
+          <h3>Deluxe Air-Conditioned Room</h3>
+          <p class="room-price">Contact us for rates</p>
+          <p>Our spacious deluxe room is thoughtfully designed to provide maximum comfort during your stay. The fully air-conditioned space ensures you stay cool even during the warmest Sri Lankan days. Whether you're visiting Anuradhapura's ancient sites or simply relaxing, this room is your perfect sanctuary.</p>
+
+          <h4 style="margin: 1.5rem 0 1rem; font-family: var(--font-heading);">Room Features</h4>
+          <div class="room-amenities">
+            <div class="room-amenity">
+              <span class="icon">❄️</span>
+              <span>Air Conditioning</span>
+            </div>
+            <div class="room-amenity">
+              <span class="icon">🛏️</span>
+              <span>Comfortable Beds</span>
+            </div>
+            <div class="room-amenity">
+              <span class="icon">🚿</span>
+              <span>Private Bathroom</span>
+            </div>
+            <div class="room-amenity">
+              <span class="icon">🧳</span>
+              <span>Luggage Storage</span>
+            </div>
+            <div class="room-amenity">
+              <span class="icon">🪞</span>
+              <span>Dressing Area</span>
+            </div>
+            <div class="room-amenity">
+              <span class="icon">🧹</span>
+              <span>Daily Housekeeping</span>
+            </div>
+          </div>
+
+          <a href="contact.html" class="btn btn-primary">Book This Room</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Amenities Section -->
+  <section class="amenities">
+    <div class="container">
+      <h2 class="section-title">What We Offer</h2>
+      <p class="section-subtitle">Simple comforts to make your stay enjoyable and hassle-free.</p>
+      <div class="amenities-grid">
+        <div class="amenity-card animate-on-scroll">
+          <div class="amenity-icon">❄️</div>
+          <h3>Air Conditioning</h3>
+          <p>Our room is fully air-conditioned, ensuring a cool and comfortable stay even during the warmest tropical days. Rest easy in perfectly regulated temperatures.</p>
+        </div>
+        <div class="amenity-card animate-on-scroll">
+          <div class="amenity-icon">🛏️</div>
+          <h3>Quality Bedding</h3>
+          <p>Sleep soundly on comfortable mattresses with fresh, high-quality linens. We ensure every guest enjoys a restful night's sleep.</p>
+        </div>
+        <div class="amenity-card animate-on-scroll">
+          <div class="amenity-icon">🚿</div>
+          <h3>Private Bathroom</h3>
+          <p>Each room includes a private bathroom with hot and cold water. Clean towels and basic toiletries are provided for your convenience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="background:linear-gradient(135deg,#0d3b2e,#1a6b4a);color:white;text-align:center;padding:5rem 0;">
+    <div class="container">
+      <h2 style="color:white;margin-bottom:1rem;">Ready to Book?</h2>
+      <p style="max-width:500px;margin:0 auto 2rem;opacity:0.9;font-size:1.1rem;">Send us a booking enquiry and we'll get back to you within 24 hours.</p>
+      <a href="contact.html" class="btn btn-accent">Make a Reservation</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">Ladder<span>Resort</span></a>
+          <p>A tranquil retreat in the ancient city of Anuradhapura, Sri Lanka. Perfect for families and travellers seeking comfort and culture.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rooms.html">Rooms</a></li>
+            <li><a href="attractions.html">Attractions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="attractions.html">Ruwanwelisaya</a></li>
+            <li><a href="attractions.html">Sri Maha Bodhi</a></li>
+            <li><a href="attractions.html">Kuttam Pokuna</a></li>
+            <li><a href="attractions.html">Jetavanaramaya</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li><a href="contact.html">Anuradhapura, Sri Lanka</a></li>
+            <li><a href="mailto:info@ladderresort.com">info@ladderresort.com</a></li>
+            <li><a href="tel:+94771234567">+94 77 123 4567</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Ladder Resort. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
