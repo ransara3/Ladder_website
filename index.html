@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ladder Resort – A luxury escape nestled in nature. Experience world-class accommodations, exquisite dining, and unforgettable adventures." />
+  <title>Ladder Resort | Luxury Escape</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <header class="site-header" id="site-header">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <a href="#home" class="nav-logo" aria-label="Ladder Resort Home">
+        <span class="logo-icon">&#9651;</span>
+        <span class="logo-text">Ladder Resort</span>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu" role="menubar">
+        <li role="none"><a href="#home"          class="nav-link" role="menuitem">Home</a></li>
+        <li role="none"><a href="#about"         class="nav-link" role="menuitem">About</a></li>
+        <li role="none"><a href="#rooms"         class="nav-link" role="menuitem">Rooms</a></li>
+        <li role="none"><a href="#amenities"     class="nav-link" role="menuitem">Amenities</a></li>
+        <li role="none"><a href="#gallery"       class="nav-link" role="menuitem">Gallery</a></li>
+        <li role="none"><a href="#contact"       class="nav-link" role="menuitem">Contact</a></li>
+        <li role="none"><a href="#booking"       class="nav-link nav-cta" role="menuitem">Book Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home" aria-label="Hero banner">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tagline">Welcome to</p>
+      <h1 class="hero-title">Ladder Resort</h1>
+      <p class="hero-subtitle">Rise above the ordinary. A sanctuary of luxury nestled between sky and nature.</p>
+      <div class="hero-buttons">
+        <a href="#booking" class="btn btn-primary">Book Your Stay</a>
+        <a href="#about"   class="btn btn-outline">Discover More</a>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll-down" aria-label="Scroll down">
+      <span class="scroll-arrow"></span>
+    </a>
+  </section>
+
+  <!-- ========== QUICK INFO BAR ========== -->
+  <div class="info-bar" aria-label="Resort highlights">
+    <div class="info-item">
+      <span class="info-icon">&#9734;</span>
+      <span>5-Star Luxury</span>
+    </div>
+    <div class="info-item">
+      <span class="info-icon">&#9825;</span>
+      <span>Spa &amp; Wellness</span>
+    </div>
+    <div class="info-item">
+      <span class="info-icon">&#127869;</span>
+      <span>Fine Dining</span>
+    </div>
+    <div class="info-item">
+      <span class="info-icon">&#127966;</span>
+      <span>Nature Trails</span>
+    </div>
+  </div>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section about" id="about" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrap">
+          <div class="about-img about-img-1" role="img" aria-label="Ladder Resort exterior view"></div>
+          <div class="about-img about-img-2" role="img" aria-label="Ladder Resort garden path"></div>
+          <div class="about-badge">
+            <span class="badge-number">25+</span>
+            <span class="badge-label">Years of Excellence</span>
+          </div>
+        </div>
+        <div class="about-content">
+          <p class="section-eyebrow">Our Story</p>
+          <h2 class="section-title" id="about-heading">A Legacy of<br />Refined Hospitality</h2>
+          <p class="about-text">
+            Perched amidst lush highlands and panoramic vistas, Ladder Resort has been a haven for discerning travellers since 1999. Our philosophy is simple: every guest deserves an experience that lifts them above the everyday.
+          </p>
+          <p class="about-text">
+            Spanning over 50 pristine acres, the resort seamlessly blends contemporary luxury with the raw beauty of nature. From our award-winning restaurant to our tranquil infinity pool overlooking the valley, every corner of Ladder invites you to unwind and reconnect.
+          </p>
+          <ul class="about-features">
+            <li><span class="feature-check">&#10003;</span> 120 elegantly designed rooms &amp; suites</li>
+            <li><span class="feature-check">&#10003;</span> Award-winning restaurant &amp; rooftop bar</li>
+            <li><span class="feature-check">&#10003;</span> Full-service spa &amp; wellness centre</li>
+            <li><span class="feature-check">&#10003;</span> Curated adventure &amp; nature experiences</li>
+          </ul>
+          <a href="#rooms" class="btn btn-primary">Explore Rooms</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ROOMS ========== -->
+  <section class="section rooms" id="rooms" aria-labelledby="rooms-heading">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Accommodations</p>
+        <h2 class="section-title" id="rooms-heading">Your Perfect Retreat</h2>
+        <p class="section-subtitle">Choose from our curated collection of rooms and suites, each designed for ultimate comfort and immersion in nature.</p>
+      </div>
+
+      <div class="rooms-grid">
+
+        <article class="room-card" aria-label="Deluxe Room">
+          <div class="room-img room-img-1" role="img" aria-label="Deluxe Room interior"></div>
+          <div class="room-info">
+            <div class="room-header">
+              <h3 class="room-name">Deluxe Room</h3>
+              <span class="room-price">From $180<small>/night</small></span>
+            </div>
+            <p class="room-desc">Elegant interiors with garden or pool views, king bed, and modern amenities. Perfect for couples and solo travellers seeking comfort.</p>
+            <ul class="room-features">
+              <li>40 m² | King Bed</li>
+              <li>Garden / Pool View</li>
+              <li>Free Wi-Fi &amp; Mini Bar</li>
+            </ul>
+            <a href="#booking" class="btn btn-outline btn-sm">Book Now</a>
+          </div>
+        </article>
+
+        <article class="room-card featured" aria-label="Premium Suite">
+          <div class="room-badge-tag">Most Popular</div>
+          <div class="room-img room-img-2" role="img" aria-label="Premium Suite interior"></div>
+          <div class="room-info">
+            <div class="room-header">
+              <h3 class="room-name">Premium Suite</h3>
+              <span class="room-price">From $320<small>/night</small></span>
+            </div>
+            <p class="room-desc">Expansive living area with panoramic valley views, private balcony, soaking tub, and a dedicated butler service.</p>
+            <ul class="room-features">
+              <li>85 m² | King Bed + Lounge</li>
+              <li>Valley Panorama View</li>
+              <li>Private Balcony &amp; Butler</li>
+            </ul>
+            <a href="#booking" class="btn btn-primary btn-sm">Book Now</a>
+          </div>
+        </article>
+
+        <article class="room-card" aria-label="Forest Villa">
+          <div class="room-img room-img-3" role="img" aria-label="Forest Villa interior"></div>
+          <div class="room-info">
+            <div class="room-header">
+              <h3 class="room-name">Forest Villa</h3>
+              <span class="room-price">From $520<small>/night</small></span>
+            </div>
+            <p class="room-desc">A private villa nestled among ancient trees. Features a plunge pool, outdoor deck, fire pit, and complete seclusion.</p>
+            <ul class="room-features">
+              <li>150 m² | 2 Bedrooms</li>
+              <li>Private Plunge Pool</li>
+              <li>Outdoor Deck &amp; Fire Pit</li>
+            </ul>
+            <a href="#booking" class="btn btn-outline btn-sm">Book Now</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== AMENITIES ========== -->
+  <section class="section amenities" id="amenities" aria-labelledby="amenities-heading">
+    <div class="amenities-bg" aria-hidden="true"></div>
+    <div class="container amenities-container">
+      <div class="section-header section-header-light">
+        <p class="section-eyebrow eyebrow-light">Experiences</p>
+        <h2 class="section-title title-light" id="amenities-heading">World-Class Amenities</h2>
+        <p class="section-subtitle subtitle-light">Everything you need to relax, revive, and explore — right at your doorstep.</p>
+      </div>
+
+      <div class="amenities-grid">
+
+        <div class="amenity-card" role="article" aria-label="Infinity Pool">
+          <div class="amenity-icon-wrap">
+            <span class="amenity-icon" aria-hidden="true">&#127754;</span>
+          </div>
+          <h3 class="amenity-name">Infinity Pool</h3>
+          <p class="amenity-desc">Float above the clouds in our heated infinity pool overlooking the valley. Open sunrise to sunset.</p>
+        </div>
+
+        <div class="amenity-card" role="article" aria-label="Spa & Wellness">
+          <div class="amenity-icon-wrap">
+            <span class="amenity-icon" aria-hidden="true">&#129514;</span>
+          </div>
+          <h3 class="amenity-name">Spa &amp; Wellness</h3>
+          <p class="amenity-desc">Indulge in rejuvenating treatments at our award-winning spa. Massages, facials, yoga, and meditation.</p>
+        </div>
+
+        <div class="amenity-card" role="article" aria-label="Fine Dining">
+          <div class="amenity-icon-wrap">
+            <span class="amenity-icon" aria-hidden="true">&#127869;</span>
+          </div>
+          <h3 class="amenity-name">Fine Dining</h3>
+          <p class="amenity-desc">Savour locally sourced cuisine crafted by our Michelin-starred chef. The rooftop bar offers craft cocktails at dusk.</p>
+        </div>
+
+        <div class="amenity-card" role="article" aria-label="Adventure Trails">
+          <div class="amenity-icon-wrap">
+            <span class="amenity-icon" aria-hidden="true">&#9968;</span>
+          </div>
+          <h3 class="amenity-name">Adventure Trails</h3>
+          <p class="amenity-desc">Guided hikes, mountain biking, zip-lining, and rock climbing through breathtaking highland terrain.</p>
+        </div>
+
+        <div class="amenity-card" role="article" aria-label="Kids Club">
+          <div class="amenity-icon-wrap">
+            <span class="amenity-icon" aria-hidden="true">&#127876;</span>
+          </div>
+          <h3 class="amenity-name">Kids Club</h3>
+          <p class="amenity-desc">A dedicated space packed with activities, games, and supervised adventures for younger guests aged 4–12.</p>
+        </div>
+
+        <div class="amenity-card" role="article" aria-label="Event Spaces">
+          <div class="amenity-icon-wrap">
+            <span class="amenity-icon" aria-hidden="true">&#127881;</span>
+          </div>
+          <h3 class="amenity-name">Event Spaces</h3>
+          <p class="amenity-desc">Host unforgettable weddings, corporate retreats, and private celebrations in our stunning outdoor venues.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY ========== -->
+  <section class="section gallery" id="gallery" aria-labelledby="gallery-heading">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Visual Journey</p>
+        <h2 class="section-title" id="gallery-heading">Life at Ladder</h2>
+        <p class="section-subtitle">A glimpse into the moments that make Ladder Resort truly extraordinary.</p>
+      </div>
+
+      <div class="gallery-grid" role="list" aria-label="Resort photo gallery">
+        <div class="gallery-item gallery-item-1 gallery-tall" role="listitem" tabindex="0" aria-label="Resort aerial view" data-caption="Aerial view of Ladder Resort"></div>
+        <div class="gallery-item gallery-item-2" role="listitem" tabindex="0" aria-label="Infinity pool at sunset" data-caption="Infinity pool at sunset"></div>
+        <div class="gallery-item gallery-item-3" role="listitem" tabindex="0" aria-label="Spa treatment room" data-caption="Tranquil spa treatment room"></div>
+        <div class="gallery-item gallery-item-4 gallery-wide" role="listitem" tabindex="0" aria-label="Fine dining restaurant" data-caption="Fine dining experience"></div>
+        <div class="gallery-item gallery-item-5" role="listitem" tabindex="0" aria-label="Forest villa exterior" data-caption="Secluded forest villa"></div>
+        <div class="gallery-item gallery-item-6" role="listitem" tabindex="0" aria-label="Mountain trail view" data-caption="Guided mountain trail"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="section testimonials" id="testimonials" aria-labelledby="testimonials-heading">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Guest Reviews</p>
+        <h2 class="section-title" id="testimonials-heading">What Our Guests Say</h2>
+      </div>
+
+      <div class="testimonials-carousel" role="region" aria-label="Guest testimonials carousel">
+        <div class="testimonial-track" id="testimonial-track">
+
+          <article class="testimonial-card" aria-label="Guest review by Sophie T.">
+            <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote class="testimonial-text">
+              "Staying at Ladder Resort was genuinely life-changing. The views, the food, the staff — everything was flawless. We'll be back every year."
+            </blockquote>
+            <footer class="testimonial-author">
+              <div class="author-avatar av-1" aria-hidden="true"></div>
+              <div>
+                <cite class="author-name">Sophie T.</cite>
+                <span class="author-location">London, UK</span>
+              </div>
+            </footer>
+          </article>
+
+          <article class="testimonial-card" aria-label="Guest review by Marco R.">
+            <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote class="testimonial-text">
+              "The Forest Villa exceeded every expectation. Waking up to the sound of birds with a plunge pool at your door — pure magic. Highly recommend!"
+            </blockquote>
+            <footer class="testimonial-author">
+              <div class="author-avatar av-2" aria-hidden="true"></div>
+              <div>
+                <cite class="author-name">Marco R.</cite>
+                <span class="author-location">Milan, Italy</span>
+              </div>
+            </footer>
+          </article>
+
+          <article class="testimonial-card" aria-label="Guest review by Anika P.">
+            <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote class="testimonial-text">
+              "The spa is absolutely divine, and the chef's tasting menu is not to be missed. Our anniversary celebration was everything we dreamed of."
+            </blockquote>
+            <footer class="testimonial-author">
+              <div class="author-avatar av-3" aria-hidden="true"></div>
+              <div>
+                <cite class="author-name">Anika P.</cite>
+                <span class="author-location">Toronto, Canada</span>
+              </div>
+            </footer>
+          </article>
+
+        </div>
+
+        <div class="carousel-controls" aria-label="Carousel controls">
+          <button class="carousel-btn" id="carousel-prev" aria-label="Previous testimonial">&#8592;</button>
+          <div class="carousel-dots" id="carousel-dots" role="tablist" aria-label="Testimonial navigation"></div>
+          <button class="carousel-btn" id="carousel-next" aria-label="Next testimonial">&#8594;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BOOKING ========== -->
+  <section class="section booking" id="booking" aria-labelledby="booking-heading">
+    <div class="container">
+      <div class="booking-wrapper">
+        <div class="booking-info">
+          <p class="section-eyebrow eyebrow-light">Reservations</p>
+          <h2 class="section-title title-light" id="booking-heading">Plan Your Stay</h2>
+          <p class="booking-desc">Complete your reservation in minutes. Our team will confirm your booking within 24 hours and assist with any special requests.</p>
+          <ul class="booking-perks">
+            <li><span class="perk-icon">&#10003;</span> Best rate guarantee</li>
+            <li><span class="perk-icon">&#10003;</span> Free cancellation up to 48 hours prior</li>
+            <li><span class="perk-icon">&#10003;</span> Complimentary welcome amenity</li>
+            <li><span class="perk-icon">&#10003;</span> 24/7 concierge service</li>
+          </ul>
+        </div>
+
+        <form class="booking-form" id="booking-form" novalidate aria-label="Booking form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="checkin">Check-in Date</label>
+              <input type="date" id="checkin" name="checkin" required aria-required="true" />
+            </div>
+            <div class="form-group">
+              <label for="checkout">Check-out Date</label>
+              <input type="date" id="checkout" name="checkout" required aria-required="true" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="guests">Guests</label>
+              <select id="guests" name="guests" required aria-required="true">
+                <option value="" disabled selected>Select guests</option>
+                <option value="1">1 Guest</option>
+                <option value="2">2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+                <option value="5+">5+ Guests</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="room-type">Room Type</label>
+              <select id="room-type" name="room-type" required aria-required="true">
+                <option value="" disabled selected>Select room</option>
+                <option value="deluxe">Deluxe Room</option>
+                <option value="suite">Premium Suite</option>
+                <option value="villa">Forest Villa</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first-name" placeholder="John" required aria-required="true" />
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last-name" placeholder="Doe" required aria-required="true" />
+            </div>
+          </div>
+
+          <div class="form-group form-group-full">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required aria-required="true" />
+          </div>
+
+          <div class="form-group form-group-full">
+            <label for="special-requests">Special Requests <span class="optional">(optional)</span></label>
+            <textarea id="special-requests" name="special-requests" rows="3" placeholder="Dietary requirements, anniversary setup, accessibility needs…"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full" id="booking-submit">
+            Request Booking
+          </button>
+
+          <div class="form-success" id="form-success" role="alert" aria-live="polite" hidden>
+            <span class="success-icon">&#10003;</span>
+            Thank you! Your booking request has been received. We'll be in touch within 24 hours.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section contact" id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Find Us</p>
+        <h2 class="section-title" id="contact-heading">Get in Touch</h2>
+        <p class="section-subtitle">We'd love to hear from you. Reach out for reservations, events, or any enquiry.</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-icon" aria-hidden="true">&#128205;</span>
+            <div>
+              <h3 class="contact-label">Location</h3>
+              <p>Ladder Peak Road, Highland District<br />SR 12400, Sri Lanka</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon" aria-hidden="true">&#128222;</span>
+            <div>
+              <h3 class="contact-label">Phone</h3>
+              <p><a href="tel:+94112345678">+94 11 234 5678</a><br />
+                 <a href="tel:+94777654321">+94 77 765 4321</a> (WhatsApp)</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon" aria-hidden="true">&#128140;</span>
+            <div>
+              <h3 class="contact-label">Email</h3>
+              <p><a href="mailto:reservations@ladderresort.com">reservations@ladderresort.com</a><br />
+                 <a href="mailto:info@ladderresort.com">info@ladderresort.com</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon" aria-hidden="true">&#128336;</span>
+            <div>
+              <h3 class="contact-label">Reception Hours</h3>
+              <p>Open 24 hours, 7 days a week</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-map" role="img" aria-label="Map showing Ladder Resort location">
+          <div class="map-placeholder">
+            <div class="map-pin" aria-hidden="true">&#128205;</div>
+            <p class="map-label">Ladder Resort<br /><small>Highland District, Sri Lanka</small></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="#home" class="footer-logo" aria-label="Ladder Resort Home">
+            <span class="logo-icon">&#9651;</span>
+            <span>Ladder Resort</span>
+          </a>
+          <p class="footer-tagline">Rise above the ordinary. A sanctuary of luxury nestled between sky and nature.</p>
+          <div class="social-links" aria-label="Social media links">
+            <a href="#" class="social-link" aria-label="Facebook" rel="noopener">f</a>
+            <a href="#" class="social-link" aria-label="Instagram" rel="noopener">&#128247;</a>
+            <a href="#" class="social-link" aria-label="Twitter / X" rel="noopener">X</a>
+            <a href="#" class="social-link" aria-label="TripAdvisor" rel="noopener">T</a>
+          </div>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation – Quick Links">
+          <h3 class="footer-heading">Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#rooms">Rooms &amp; Suites</a></li>
+            <li><a href="#amenities">Amenities</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#booking">Book a Stay</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-nav" aria-label="Footer navigation – Guest Services">
+          <h3 class="footer-heading">Guest Services</h3>
+          <ul>
+            <li><a href="#">Airport Transfer</a></li>
+            <li><a href="#">Dining Reservations</a></li>
+            <li><a href="#">Spa Appointments</a></li>
+            <li><a href="#">Events &amp; Weddings</a></li>
+            <li><a href="#">Loyalty Programme</a></li>
+            <li><a href="#">Gift Vouchers</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-newsletter">
+          <h3 class="footer-heading">Stay Updated</h3>
+          <p>Subscribe for exclusive offers, seasonal packages, and resort news.</p>
+          <form class="newsletter-form" id="newsletter-form" novalidate aria-label="Newsletter signup form">
+            <div class="newsletter-input-wrap">
+              <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Your email address" required aria-required="true" aria-label="Email address for newsletter" />
+              <button type="submit" aria-label="Subscribe to newsletter">&#10148;</button>
+            </div>
+            <div class="newsletter-success" id="newsletter-success" role="alert" aria-live="polite" hidden>
+              Thank you for subscribing!
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="footer-year"></span> Ladder Resort. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms &amp; Conditions</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== BACK TO TOP ========== -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top" hidden>&#8679;</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
