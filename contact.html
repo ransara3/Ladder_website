@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Booking | Ladder Resort - Anuradhapura</title>
+  <meta name="description" content="Book your stay at Ladder Resort, Anuradhapura. Contact us for reservations, enquiries, and information about our accommodation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="nav-overlay"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">Ladder<span>Resort</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="attractions.html">Attractions</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="contact.html" class="btn btn-accent">Book Now</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <h1>Contact & Booking</h1>
+      <p>Get in touch with us to book your stay or ask any questions about our resort and the Anuradhapura area.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Contact Information -->
+        <div class="contact-info">
+          <h3>Get In Touch</h3>
+          <div class="contact-item">
+            <div class="icon">📍</div>
+            <div>
+              <h4>Address</h4>
+              <p>Ladder Resort<br>Anuradhapura, North Central Province<br>Sri Lanka</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">📧</div>
+            <div>
+              <h4>Email</h4>
+              <p>info@ladderresort.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">📞</div>
+            <div>
+              <h4>Phone</h4>
+              <p>+94 77 123 4567</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">🕐</div>
+            <div>
+              <h4>Check-in / Check-out</h4>
+              <p>Check-in: 2:00 PM<br>Check-out: 11:00 AM</p>
+            </div>
+          </div>
+
+          <!-- Map placeholder -->
+          <div class="map-placeholder">
+            <div>
+              <div class="map-icon">📍</div>
+              <p>Anuradhapura, Sri Lanka</p>
+              <a href="https://maps.google.com/?q=Anuradhapura+Sri+Lanka" target="_blank" rel="noopener noreferrer">View on Google Maps</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Booking Form -->
+        <div class="booking-form">
+          <h3>Book Your Stay</h3>
+          <form id="bookingForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+1 234 567 8900">
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="checkin">Check-in Date *</label>
+                <input type="date" id="checkin" name="checkin" required>
+              </div>
+              <div class="form-group">
+                <label for="checkout">Check-out Date *</label>
+                <input type="date" id="checkout" name="checkout" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="guests">Number of Guests</label>
+                <select id="guests" name="guests">
+                  <option value="1">1 Guest</option>
+                  <option value="2" selected>2 Guests</option>
+                  <option value="3">3 Guests</option>
+                  <option value="4">4 Guests</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="room">Room Type</label>
+                <select id="room" name="room">
+                  <option value="deluxe-ac">Deluxe AC Room</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Special Requests</label>
+              <textarea id="message" name="message" placeholder="Any special requirements or questions..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width:100%;">Send Booking Request</button>
+            <div class="form-message"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="amenities">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-subtitle">Quick answers to common questions about your stay.</p>
+      <div class="amenities-grid">
+        <div class="amenity-card animate-on-scroll">
+          <div class="amenity-icon">🏨</div>
+          <h3>What amenities are included?</h3>
+          <p>Our room includes air conditioning, comfortable bedding, a private bathroom with hot/cold water, and daily housekeeping.</p>
+        </div>
+        <div class="amenity-card animate-on-scroll">
+          <div class="amenity-icon">🚗</div>
+          <h3>How do I get to the resort?</h3>
+          <p>We are located in Anuradhapura. You can reach us by bus, train, or private vehicle. We can arrange airport transfers on request.</p>
+        </div>
+        <div class="amenity-card animate-on-scroll">
+          <div class="amenity-icon">💳</div>
+          <h3>What payment methods do you accept?</h3>
+          <p>We accept cash payments in LKR and USD. Please contact us in advance for other payment arrangements.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">Ladder<span>Resort</span></a>
+          <p>A tranquil retreat in the ancient city of Anuradhapura, Sri Lanka. Perfect for families and travellers seeking comfort and culture.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rooms.html">Rooms</a></li>
+            <li><a href="attractions.html">Attractions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="attractions.html">Ruwanwelisaya</a></li>
+            <li><a href="attractions.html">Sri Maha Bodhi</a></li>
+            <li><a href="attractions.html">Kuttam Pokuna</a></li>
+            <li><a href="attractions.html">Jetavanaramaya</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li><a href="contact.html">Anuradhapura, Sri Lanka</a></li>
+            <li><a href="mailto:info@ladderresort.com">info@ladderresort.com</a></li>
+            <li><a href="tel:+94771234567">+94 77 123 4567</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Ladder Resort. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
