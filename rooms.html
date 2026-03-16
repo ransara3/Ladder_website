@@ -51,20 +51,16 @@
         <!-- Photo Gallery -->
         <div class="room-gallery">
           <!-- Replace src values with your actual room photos -->
-          <img src="images/room-1.jpg" alt="Deluxe AC Room - spacious interior view" class="active"
-               onerror="this.style.display='none';this.parentElement.querySelector('.gallery-placeholder').style.display='flex';">
-          <img src="images/room-2.jpg" alt="Deluxe AC Room - comfortable bed"
-               onerror="this.style.display='none';">
-          <img src="images/room-3.jpg" alt="Deluxe AC Room - bathroom"
-               onerror="this.style.display='none';">
-          <img src="images/room-4.jpg" alt="Deluxe AC Room - window view"
-               onerror="this.style.display='none';">
+          <img src="images/room-1.jpg" alt="Deluxe AC Room - spacious interior view" class="active">
+          <img src="images/room-2.jpg" alt="Deluxe AC Room - comfortable bed">
+          <img src="images/room-3.jpg" alt="Deluxe AC Room - bathroom">
+          <img src="images/room-4.jpg" alt="Deluxe AC Room - window view">
 
           <!-- Placeholder shown when images are not yet uploaded -->
-          <div class="gallery-placeholder" style="width:100%;height:100%;background:linear-gradient(135deg,#2d8b6a,#1a4a3a);display:flex;flex-direction:column;align-items:center;justify-content:center;color:white;font-family:var(--font-heading);gap:1rem;">
-            <span style="font-size:3rem;">🛏️</span>
-            <span style="font-size:1.3rem;">Deluxe AC Room</span>
-            <span style="font-size:0.9rem;opacity:0.7;">Photos coming soon</span>
+          <div class="gallery-placeholder">
+            <span class="placeholder-icon">🛏️</span>
+            <span class="placeholder-title">Deluxe AC Room</span>
+            <span class="placeholder-sub">Photos coming soon</span>
           </div>
 
           <!-- Gallery Navigation -->
@@ -84,7 +80,7 @@
           <p class="room-price">Contact us for rates</p>
           <p>Our spacious deluxe room is thoughtfully designed to provide maximum comfort during your stay. The fully air-conditioned space ensures you stay cool even during the warmest Sri Lankan days. Whether you're visiting Anuradhapura's ancient sites or simply relaxing, this room is your perfect sanctuary.</p>
 
-          <h4 style="margin: 1.5rem 0 1rem; font-family: var(--font-heading);">Room Features</h4>
+          <h4 class="room-features-heading">Room Features</h4>
           <div class="room-amenities">
             <div class="room-amenity">
               <span class="icon">❄️</span>
@@ -144,10 +140,10 @@
   </section>
 
   <!-- CTA -->
-  <section style="background:linear-gradient(135deg,#0d3b2e,#1a6b4a);color:white;text-align:center;padding:5rem 0;">
+  <section class="cta-section">
     <div class="container">
-      <h2 style="color:white;margin-bottom:1rem;">Ready to Book?</h2>
-      <p style="max-width:500px;margin:0 auto 2rem;opacity:0.9;font-size:1.1rem;">Send us a booking enquiry and we'll get back to you within 24 hours.</p>
+      <h2>Ready to Book?</h2>
+      <p>Send us a booking enquiry and we'll get back to you within 24 hours.</p>
       <a href="contact.html" class="btn btn-accent">Make a Reservation</a>
     </div>
   </section>

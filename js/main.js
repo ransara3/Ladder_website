@@ -3,10 +3,42 @@
 document.addEventListener('DOMContentLoaded', () => {
   initHeader();
   initMobileNav();
+  initGalleryImages();
   initGallery();
   initBookingForm();
   initScrollAnimations();
 });
+
+/* ----- Gallery Image Error Handling ----- */
+function initGalleryImages() {
+  const gallery = document.querySelector('.room-gallery');
+  if (!gallery) return;
+
+  const images = gallery.querySelectorAll('img');
+  const placeholder = gallery.querySelector('.gallery-placeholder');
+  let loadedCount = 0;
+
+  if (images.length === 0) return;
+
+  images.forEach(img => {
+    img.addEventListener('error', () => {
+      img.style.display = 'none';
+    });
+
+    img.addEventListener('load', () => {
+      loadedCount++;
+      if (placeholder) placeholder.style.display = 'none';
+    });
+
+    // Handle already-failed images (cached errors)
+    if (img.complete && img.naturalWidth === 0) {
+      img.style.display = 'none';
+    } else if (img.complete && img.naturalWidth > 0) {
+      loadedCount++;
+      if (placeholder) placeholder.style.display = 'none';
+    }
+  });
+}
 
 /* ----- Sticky Header ----- */
 function initHeader() {
